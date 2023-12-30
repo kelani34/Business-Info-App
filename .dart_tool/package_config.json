@@ -62,12 +62,6 @@
       "languageVersion": "3.2"
     },
     {
-      "name": "intl",
-      "rootUri": "file:///Users/kehlani/.pub-cache/hosted/pub.dev/intl-0.17.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "lints",
       "rootUri": "file:///Users/kehlani/.pub-cache/hosted/pub.dev/lints-2.1.1",
       "packageUri": "lib/",
@@ -152,13 +146,13 @@
       "languageVersion": "3.2"
     },
     {
-      "name": "count_down_2024",
+      "name": "business_card_info",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2023-12-29T14:53:17.473988Z",
+  "generated": "2023-12-30T17:19:00.506272Z",
   "generator": "pub",
   "generatorVersion": "3.2.3"
 }

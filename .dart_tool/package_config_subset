@@ -30,10 +30,6 @@ flutter_lints
 2.19
 file:///Users/kehlani/.pub-cache/hosted/pub.dev/flutter_lints-2.0.3/
 file:///Users/kehlani/.pub-cache/hosted/pub.dev/flutter_lints-2.0.3/lib/
-intl
-2.12
-file:///Users/kehlani/.pub-cache/hosted/pub.dev/intl-0.17.0/
-file:///Users/kehlani/.pub-cache/hosted/pub.dev/intl-0.17.0/lib/
 lints
 3.0
 file:///Users/kehlani/.pub-cache/hosted/pub.dev/lints-2.1.1/
@@ -98,8 +94,8 @@ flutter_test
 3.2
 file:///Users/kehlani/Developer/flutter/packages/flutter_test/
 file:///Users/kehlani/Developer/flutter/packages/flutter_test/lib/
-count_down_2024
+business_card_info
 3.2
-file:///Users/kehlani/StudioProjects/mi_card_flutter/
-file:///Users/kehlani/StudioProjects/mi_card_flutter/lib/
+file:///Users/kehlani/StudioProjects/business_card_info/
+file:///Users/kehlani/StudioProjects/business_card_info/lib/
 2

@@ -11,15 +11,45 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.white,
         body: SafeArea(
-          child: Container(
-            height: 200.0,
-            width: 200.0,
-            margin: EdgeInsets.symmetric(vertical: 30.0, horizontal: 90.0),
-            padding: EdgeInsets.all(40.0),
-            color: Colors.white,
-            child: Text("Hello"),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Container(
+                decoration: BoxDecoration(
+                  color: Colors.blue,
+                  borderRadius: BorderRadius.circular(35.0),
+                ),
+                height: 150.0,
+                width: 150.0,
+                child: Center(
+                  child: Text("Box 1"),
+                ),
+              ),
+              Container(
+                decoration: BoxDecoration(
+                  color: Colors.blue,
+                  borderRadius: BorderRadius.circular(35.0),
+                ),
+                height: 150.0,
+                width: 150.0,
+                child: Center(
+                  child: Text("Box 1"),
+                ),
+              ),
+              Container(
+                decoration: BoxDecoration(
+                  color: Colors.blue,
+                  borderRadius: BorderRadius.circular(35.0),
+                ),
+                height: 150.0,
+                width: 150.0,
+                child: Center(
+                  child: Text("Box 1"),
+                ),
+              ),
+            ],
           ),
         ),
       ),
