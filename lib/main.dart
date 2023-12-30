@@ -14,12 +14,22 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.white,
         body: SafeArea(
           child: Column(
-            mainAxisSize: MainAxisSize.min,
+            // mainAxisSize: MainAxisSize.min,
+            // verticalDirection: VerticalDirection.up,
+            // mainAxisAlignment: MainAxisAlignment.spaceAround,
+
             children: [
               Container(
                 decoration: BoxDecoration(
                   color: Colors.blue,
                   borderRadius: BorderRadius.circular(35.0),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.4),
+                      spreadRadius: 2,
+                      blurRadius: 2,
+                    ),
+                  ],
                 ),
                 height: 150.0,
                 width: 150.0,
@@ -31,6 +41,13 @@ class MyApp extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: Colors.blue,
                   borderRadius: BorderRadius.circular(35.0),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.4),
+                      spreadRadius: 2,
+                      blurRadius: 2,
+                    ),
+                  ],
                 ),
                 height: 150.0,
                 width: 150.0,
@@ -42,6 +59,13 @@ class MyApp extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: Colors.blue,
                   borderRadius: BorderRadius.circular(35.0),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey.withOpacity(0.4),
+                      spreadRadius: 2,
+                      blurRadius: 2,
+                    ),
+                  ],
                 ),
                 height: 150.0,
                 width: 150.0,
